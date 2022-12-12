@@ -46,6 +46,20 @@ header {
 .header__link-home {
     color: var(--cor-azul);
     padding: 0 90px 0 0;
+    transition: 0.4s;
+}
+
+.header__link-home:hover {
+    font-weight: bold;
+}
+
+.header__link-about {
+    color: var(--cor-preto);
+    transition: 0.4s;
+}
+
+.header__link-about:hover {
+    font-weight: bold;
 }
 
 .header__link-right {
@@ -53,7 +67,12 @@ header {
 }
 
 .header__link-login {
+    color: var(--cor-preto);
     padding: 0 32px 0 0;
+}
+
+.header__link-login:hover {
+    font-weight: bold;
 }
 
 .header__link-singup {
@@ -61,6 +80,12 @@ header {
     padding: 6px 26px 6px 26px;
     border: 1px solid var(--cor-rosa);
     border-radius: 20px;
+    transition: 0.4s;
+}
+
+.header__link-singup:hover {
+    font-weight: bold;
+    box-shadow: var(--cor-rosa) 0px 2px 4px 0px, var(--cor-rosa) 0px 2px 16px 0px;
 }
 
 main {
@@ -130,9 +155,16 @@ main {
     font-size: 22px;
     color: var(--cor-branca);
     background-color: var(--cor-marrom);
+    border: none;
     border-radius: 40px;
     width: 227px;
     height: 66px;
+    cursor: pointer;
+    transition: 0.2s;    
+}
+
+.main__box-botao:hover {
+    background-color: var(--cor-azul);
 }
 
 .main__img {
