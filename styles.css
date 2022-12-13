@@ -30,7 +30,8 @@ body {
 }
 
 .header__box {
-    width: 1440px;
+    max-width: 1440px;
+    /* width: 90%; */
     height: 155px;
     margin: 0 auto;
     display: flex;
@@ -70,12 +71,10 @@ body {
 
 .main {
     max-width: 1440px;
-    width: 90%;
-    height: 897px;
+    /* width: 90%; */
+    height: auto;
     display: flex;
-    overflow: hidden;
     margin: 0 auto;
-    padding: 0 44px 0 114px;
 }
 
 .main__box {
@@ -83,13 +82,14 @@ body {
     display: flex;
     flex-direction: column;
     position: relative;
-    top: 204px;
+    top: 206px;
+    left: 75px;
 }
 
 .main__box-titulo {
     display: flex;
     flex-wrap: nowrap;
-    gap: 24px;
+    gap: 20px;
     width: 674px;
     margin-left: 1px;
     font-family: var(--fonte-secundaria);
@@ -107,7 +107,7 @@ body {
 
 .main__box-texto {
     font-family: var(--fonte-primaria);
-    font-size: 36px;
+    font-size: 35px;
     letter-spacing: 0.07em;
     width: 208px;
     margin-bottom: 70px;
@@ -127,8 +127,7 @@ body {
 
 .main__img {
     position: relative;
-    top: 0;
-    left: -284px;
-    right: auto;
+    top: 8px;
+    left: -212px;
     width: 888px;
 }
