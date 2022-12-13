@@ -31,7 +31,6 @@ body {
 
 .header__box {
     max-width: 1440px;
-    /* width: 90%; */
     height: 155px;
     margin: 0 auto;
     display: flex;
@@ -47,10 +46,20 @@ body {
 .header__link-home {
     color: var(--cor-azul);
     padding-right: 90px;
+    transition: 0.4s;
+}
+
+.header__link-home:hover {
+    font-weight: bold;
 }
 
 .header__link-about {
     color: var(--cor-preto);
+    transition: 0.4s;
+}
+
+.header__link-about:hover {
+    font-weight: bold;
 }
 
 .header__link-right {
@@ -60,6 +69,11 @@ body {
 .header__link-login {
     color: var(--cor-preto);
     padding-right: 32px;
+    transition: 0.4s;
+}
+
+.header__link-login:hover {
+    font-weight: bold;
 }
 
 .header__link-singup {
@@ -67,11 +81,16 @@ body {
     padding: 6px 26px 6px 26px;
     border: 1px solid var(--cor-rosa);
     border-radius: 20px;
+    transition: 0.4s;
+}
+
+.header__link-singup:hover {
+    font-weight: bold;
+    box-shadow: var(--cor-rosa) 0px 2px 4px 0px, var(--cor-rosa) 0px 2px 16px 0px;
 }
 
 .main {
     max-width: 1440px;
-    /* width: 90%; */
     height: auto;
     display: flex;
     margin: 0 auto;
@@ -124,6 +143,11 @@ body {
     width: 227px;
     height: 66px;
     cursor: pointer;
+    transition: 0.2s;  
+}
+
+.main__box-botao:hover {
+    background-color: var(--cor-azul);
 }
 
 .main__img {
