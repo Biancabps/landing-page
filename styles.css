@@ -79,11 +79,12 @@ body {
 
 .main__box {
     width: 684px;
+    height: 400px;
     display: flex;
     flex-direction: column;
     position: relative;
     top: 206px;
-    left: 75px;
+    left: 95px;
 }
 
 .main__box-titulo {
@@ -93,7 +94,7 @@ body {
     width: 674px;
     margin-left: 1px;
     font-family: var(--fonte-secundaria);
-    font-size: 85px;
+    font-size: 80px;
     color: var(--cor-preto);
     text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
     letter-spacing: 0.07em;
@@ -128,6 +129,6 @@ body {
 .main__img {
     position: relative;
     top: 8px;
-    left: -212px;
+    left: -227px;
     width: 888px;
 }
