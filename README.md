@@ -7,7 +7,7 @@ Projeto para prática e composição de portifólio.
 
 [Clique aqui para acessar!](https://landing-page-weld-rho.vercel.app/)
 
-[Design disponível no Figma aqui!](https://www.figma.com/file/qkkUmNBIjRt3uoQLUXvEWX/Landing-page-design-(Community)?node-id=1%3A1837&t=4ZsfcXbBJxCDTlW7-0)
+[Design no Figma disponível aqui!](https://www.figma.com/file/qkkUmNBIjRt3uoQLUXvEWX/Landing-page-design-(Community)?node-id=1%3A1837&t=4ZsfcXbBJxCDTlW7-0)
 
 ## Tecnologias
 
